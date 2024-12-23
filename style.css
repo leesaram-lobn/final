@@ -1,0 +1,113 @@
+/* 무조건 해야 하는 기본 전제 4가지는 기억해두고 바로 할것. */
+*{
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* nav와 section으로 크게 두가지로 나눔. 
+그 밑으로 bo1~은 큰 박스, box1~은 작은 박스 
+to1~은 텍스트 상자이며, c01~은 콘텐츠 박스로 사진 등이 들어간다. */
+/* nav{}
+section{} */
+
+video{
+    position: fixed;
+    /* 위 내용은 영상이 스크롤 되지 않음 */
+    right: 0;
+    bottom: 0;
+    /* 영상 자리 고정 */
+    min-width: 100%;
+    min-height: 100%;
+    /* 각 폰마다 크기조정 */
+    z-index: 1;
+    /* 명명하는 것 같은데 잘 모르겠음  */
+
+}
+.front{
+    
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* 영상 자리 고정 */
+    min-width: 100%;
+    min-height: 100%;
+    /* 각 폰마다 크기조정 */
+    z-index: 10;
+    /* 명명하는 것 같은데 잘 모르겠음  */
+    background: radial-gradient(
+    rgba(168, 168, 168, 0.3),
+    rgba( 1,0,5, 0.8)
+    );
+
+}
+
+.warp{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+.logo{height: 230px;text-align: center;padding-top: 180px;}
+.subcopy{
+    height: 119px;
+    padding-top: 260px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.bt00{height: 65px;padding-top: 698px; text-align: center;}
+
+.font00{font-family:"Noto Sans KR", sans-serif }
+.font01{font-size: 14px; letter-spacing: 3px; line-height: 20px;font-weight: 0px;}
+.font02{font-size: 20px; letter-spacing: 3px; line-height: 29px;font-weight: 0px;}
+.font03{font-size: 24px; letter-spacing: 3px; line-height: 35px;font-weight: 22px;}
+.font04{font-size: 18px; letter-spacing: 3px; line-height: 26px;font-weight: 0px;}
+.font05{font-size: 25px; letter-spacing: 3px; line-height: 36px;font-weight: 0px;}
+.font06{font-size: 20px; letter-spacing: 3px; line-height: 29px;font-weight: 0px;}
+.font07{font-size: 16px; letter-spacing: 3px; line-height: 24px;font-weight: 0px;}
+.font08{font-size: 30px; letter-spacing: 3px; line-height: 44px;font-weight: 0px;}
+.font09{font-size: 18px; letter-spacing: 3px; line-height: 26px;font-weight: 0px;}
+.font10{font-size: 20px; letter-spacing: 3px; line-height: 29px;font-weight: 0px;}
+.font11{font-size: 15px; letter-spacing: 3px; line-height: 21px;font-weight: 0px;}
+.font12{font-size: 30px; letter-spacing: 3px; line-height: 44px;font-weight: 0px;}
+.font13{font-size: 15px; letter-spacing: 3px; line-height: 21px;font-weight: 0px;}
+
+.b00{}
+.b01{}
+.b02{}
+.b03{}
+.b04{}
+.b05{}
+
+.c01{}
+.c02{}
+.c03{}
+.c04{}
+.c05{}
+.c06{}
+.c07{}
+.c08{}
+.c09{}
+.c10{}
+
+.c1{}
+.c2{}
+.c3{}
+.c4{}
+.c5{}
+.c6{}
+.c7{}
+
+
+
+
+
